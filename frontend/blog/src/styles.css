@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.example-card{
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+}
+
+.example-full-width{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
