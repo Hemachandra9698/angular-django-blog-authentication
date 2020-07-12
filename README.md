@@ -33,9 +33,14 @@ npm install
 ng serve
 ```
 
-Get into the admin panel and add your permissions and groups for the selected users. I have created and assigned my user to the group "updator". You can also add a user from the panel. Run the Angular app and login into the app with the created user credentials.Try to delete a post shown from the available posts. As of now in the Backend we are checking whether the logged in user has the group "updator". If the user has the group then we allow to edit the posts. If not, we don't. 
+Get into the admin panel and add your permissions and groups for the selected users. I have created and assigned my user to the group "updator". 
+You can also add a user from the panel. Run the Angular app and login into the app with the created user credentials.Try to delete a post shown from the available posts. 
+As of now in the Backend we are checking whether the logged in user has the group "updator". If the user has the group then we allow to edit the posts. 
+If not, we don't. 
 
 ## Development
 ```
-Add a button for requesting permissions to edit a post for the user. We store the requests in the user table in the backend and when a admin logs in, we show a personalized page to him and we show the number of requests from the other users. If admin approved then we assign the user to "updator" group and so the user can edit the posts. If declined we don't add the group and rest is same.
+Add a button for requesting permissions to edit a post for the user. We store the requests in the user table in the backend and when a admin logs in, 
+we show a personalized page to him and we show the number of requests from the other users. If admin approved then we assign the user to "updator" group 
+and so the user can edit the posts. If declined we don't add the group and rest is same.
 ```
