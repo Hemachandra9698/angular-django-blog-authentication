@@ -11,7 +11,7 @@ djangorestframework-simplejwt==4.4.0
 httpie==2.2.0
 idna==2.10
 mysqlclient==2.0.1
-Pygments==2.6.1
+Pygments==2.7.4
 PyJWT==1.7.1
 pytz==2020.1
 requests==2.24.0
